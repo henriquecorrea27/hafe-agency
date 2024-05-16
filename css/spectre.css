@@ -1530,6 +1530,8 @@ video.video-responsive::before {
   display: -ms-flexbox;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   margin-left: -.4rem;
   margin-right: -.4rem;
 }

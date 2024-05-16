@@ -37,6 +37,7 @@ a:active {
   padding-left: 1rem;
   padding-right: 1rem;
   text-align: center;
+  
 }
 
 .navbar .navbar-brand.logo {
@@ -305,10 +306,16 @@ a:active {
 /* How We Work */
 
 .yeo-work {
-  padding: 4rem 0 1rem 0;
+  padding: 0;
   background: #0a007e;
   color: #fff;
   background-size: cover;
+
+  /* Adicionando as propriedades para centralizar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Isso é opcional para centralizar verticalmente */
 }
 
 .yeo-work-feature-bold {
@@ -478,4 +485,6 @@ a:active {
     width: 90%;
     font-size: 0.8rem;
   }
+
+  
 }
