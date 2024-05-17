@@ -306,7 +306,8 @@ a:active {
 
 .yeo-work {
   padding: 0;
-  background: #0a007e;
+  background-image: -webkit-linear-gradient(44deg, #000000 50%, #c0c0c0 100%);
+  background-image: -o-linear-gradient(44deg, #000000 50%, #a3a3a3 100%);
   color: #fff;
   background-size: cover;
 
